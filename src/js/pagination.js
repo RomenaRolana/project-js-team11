@@ -1,1 +1,1 @@
-<><link rel="stylesheet" href="https://uicdn.toast.com/tui.pagination/latest/tui-pagination.css" /><script src="https://uicdn.toast.com/tui.pagination/latest/tui-pagination.js"></script></>
+<script src="https://uicdn.toast.com/tui.pagination/latest/tui-pagination.js"></script>
