@@ -1,0 +1,69 @@
+body {
+    font-family: var(--fontFamily);
+    color: var(--primaryTextDark);
+    background-color: var(--primaryLightThemeBgColor);
+    // -webkit-tap-highlight-color: transparent;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .lock {
+    overflow: hidden;
+  }
+  
+  .icon {
+    fill: currentColor;
+  }
+
+  .container {
+    padding: 0 20px;
+  
+    @include mobile {
+      width: 480px;
+      margin: 0 auto;
+    }
+  
+    @include tablet {
+      width: 768px;
+      padding: 0 32px;
+    }
+  
+    @include desktop {
+      width: 1280px;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  
+  ul,
+  ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  button {
+    padding: 0;
+    border: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  textarea {
+    resize: none;
+    outline: none;
+  }

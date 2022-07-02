@@ -1,0 +1,57 @@
+@mixin font($fs: null, $lh: null, $fw: null, $ls: null) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+    letter-spacing: $ls;
+  }
+  
+  // Флекс
+  
+  @mixin centrFlex($dflex: flex) {
+    display: $dflex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @mixin flex($dflex: flex, $aligni: null, $justc: null) {
+    display: $dflex;
+    justify-content: $justc;
+    align-items: $aligni;
+  }
+  
+  // Медиа запросы
+  @mixin mobile {
+    @media screen and (min-width: 480px) {
+      @content;
+    }
+  }
+  
+  @mixin tablet {
+    @media screen and (min-width: 768px) {
+      @content;
+    }
+  }
+  
+  @mixin desktop {
+    @media screen and (min-width: 1280px) {
+      @content;
+    }
+  }
+  
+  @mixin retinabg {
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: (192dpi)),
+      (min-resolution: (2dppx)) {
+      @content;
+    }
+  }
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
