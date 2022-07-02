@@ -51,22 +51,3 @@ body {
     resize: none;
     outline: none;
   }
-  .container {
-    position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 320px;
-  
-    @media screen and (min-width: $tablet) {
-      width: 768px;
-      padding-left: 32px;
-      padding-right: 32px;
-    }
-    @media screen and (min-width: $desktop) {
-      width: 1024px;
-      padding-left: 32px;
-      padding-right: 32px;
-    }
-  }
