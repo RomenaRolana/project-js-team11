@@ -1,1 +1,0 @@
-<script src="https://uicdn.toast.com/tui.pagination/latest/tui-pagination.js"></script>
